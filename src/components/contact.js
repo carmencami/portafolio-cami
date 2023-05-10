@@ -63,11 +63,11 @@ export default function Contact(){
                 Submit={handleSubmit}
                 className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
                 >
-                    <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
+                    <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font text-dark">
                         ¡Cotrátame!
                     </h2>
                     <p className="leadind-relaxed mb-5">
-                        skjnsjknsjksnsknsjksnkjnskjnskjsnsjksjkns
+                        Explica brevemente tu consulta para que pueda atenderte con más detalles sobre tiempo, presupuesto, ideas...
                     </p>
                     <div className="relative mb-4">
                         <label htmlFor="name" className="leading-7 text-sm text-gray-400">
@@ -107,7 +107,7 @@ export default function Contact(){
                     </div>
                     <button
                     type="submit"
-                    className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                    className="text-dark font-semibold bg-yellow border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                         Enviar
                     </button>
                 </form>

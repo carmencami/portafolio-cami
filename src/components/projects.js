@@ -8,12 +8,12 @@ export default function Projects(){
         <div id="projects" className="text-gray-400 bg-gray-900 body-font">
             <div className="container px-5 py-10 mx-auto text-center lg:px-40">
                 <div className="flex flex-col w-full mb-20">
-                    <CodeIcon className="mx-auto inline-block w-10 mb-4" />
-                    <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+                    <CodeIcon className="mx-auto inline-block w-10 mb-4 text-dark" />
+                    <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-dark">
                         Aplicaciones que he construido
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        Estas aplicaciones las he realizado....
+                        Estas aplicaciones las he realizado con diferentes lenguajes y Framework. Los diseños están elegidos según las necesidades de cada proyecto.
                     </p>
                 </div>
                 <div className="flex flex-wrap -m-4">
