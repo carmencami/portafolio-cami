@@ -16,7 +16,7 @@ export default function About(){
                         Trabaja conmigo
                         </a>
                         <a href="#projects"
-                        className="ml-4 inline-flex font-semibold bg-yellow text-dark border-0 py-2 px-6 focus:outline-none hover:text-white rounded-xl text-lg">
+                        className=" transition duration-150 ease-out hover:ease-in ml-4 inline-flex font-semibold bg-yellow text-dark border-0 py-2 px-6 focus:outline-none hover:text-white rounded-xl text-lg">
                             Mis trabajos
                         </a>
                     </div>

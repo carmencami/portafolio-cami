@@ -5,12 +5,12 @@ export const skills = [
 
   export const projects = [
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
+      title: "Caracola joyitas",
+      subtitle: "Wordpress, Html y CSS",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
-      link: "https://reactbootcamp.com",
+        "Aplicación web creada con Wordpress. Los colores y el diseño están elegidos para crear una marca cercana y juvenil",
+      image: "./caracolajoyitas.png",
+      link: "https://caracolajoyitas.com/",
     },
     {
       title: "React Tracks",
@@ -38,37 +38,37 @@ export const skills = [
     },
   ];
 
-  export const testimonials = [
-    {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
-      link: "https://reactbootcamp.com",
-    },
-    {
-      title: "React Tracks",
-      subtitle: "React and Python",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-2.gif",
-      link: "https://reedbarger.com",
-    },
-    {
-      title: "DevChat",
-      subtitle: "React and Firebase",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-3.gif",
-      link: "https://jsbootcamp.com",
-    },
-    {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-4.gif",
-      link: "https://pythonbootcamp.com",
-    },
-  ];
+  // export const testimonials = [
+  //   {
+  //     name: "Martin",
+  //     subtitle: "MERN Stack",
+  //     description:
+  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+  //     image: "./project-1.gif",
+  //     link: "https://reactbootcamp.com",
+  //   },
+  //   {
+  //     title: "React Tracks",
+  //     subtitle: "React and Python",
+  //     description:
+  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+  //     image: "./project-2.gif",
+  //     link: "https://reedbarger.com",
+  //   },
+  //   {
+  //     title: "DevChat",
+  //     subtitle: "React and Firebase",
+  //     description:
+  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+  //     image: "./project-3.gif",
+  //     link: "https://jsbootcamp.com",
+  //   },
+  //   {
+  //     title: "Epic Todo App",
+  //     subtitle: "React Hooks",
+  //     description:
+  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+  //     image: "./project-4.gif",
+  //     link: "https://pythonbootcamp.com",
+  //   },
+  // ];

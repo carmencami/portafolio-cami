@@ -1,9 +1,10 @@
 import React from 'react';
+import { useState } from 'react';
 
 export default function Contact(){
-    const [name,setName] = React.useState("");
-    const [email, setEmail]= React.useState("");
-    const [message, setMessage]= React.useState("");
+    const [name,setName] = useState("");
+    const [email, setEmail]= useState("");
+    const [message, setMessage]= useState("");
 
     function encode(data) {
         return Object.keys(data).map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])).join("&");
@@ -40,7 +41,7 @@ export default function Contact(){
                                 DIRECCIÓN
                             </h2>
                             <p className="mt-1">
-                                calle mexico
+                                Málaga
                             </p>
                         </div>
                         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -58,9 +59,8 @@ export default function Contact(){
                     </div>
                 </div>
                 <form
-                netlify
                 name="contact"
-                Submit={handleSubmit}
+                submit={handleSubmit}
                 className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
                 >
                     <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font text-dark">
