@@ -21,6 +21,7 @@ export default function Contact(){
     }
     return(
         <div id="contact" className="relative">
+            <h1 className='flex justify-center sm:text-4xl text-3xl font-medium title-font text-dark mb-4 mt-10'>Contáctame</h1>
             <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
                 <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overfloew-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                     <iframe
